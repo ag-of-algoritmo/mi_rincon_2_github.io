@@ -1,0 +1,761 @@
+*{
+    box-sizing: border-box;
+    
+
+}
+
+@media screen and (max-width: 700px) {
+    .row, 
+    .navbar{
+        flex-direction: column;
+    }
+}
+
+p{
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/* Estilo del cuerpo de la página */
+body{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; margin: 0;
+
+    
+}
+
+figcaption{
+    font-size: 12px;
+    font-style: italic;
+}
+
+/* Header, logo y título*/
+.Header{
+    padding: 80px;
+    text-align: center;
+    background: #03032d;
+    color: #ffff;
+}
+
+/* Estilo de la barra de navegación*/
+.navbar{
+    display: flex;
+    background-color: #ffc400;
+    padding: 20px;
+}
+
+/* Estilo de los enlaces de la barra de navegación*/
+.navbar a{
+    color: black;
+    padding: 14px 20px;
+    text-decoration: none;
+    text-align: center;
+}
+
+/* Cambiar el color cuando pasa el cursor por encima*/
+.navbar a:hover{
+    background-color: black;
+    color: #ffff;
+    box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.2);
+}
+
+/* ¡¡¡¡PRUEBAS PARA El Header ideal (o sea el encabezado con la img sin los enlaces)!!! */
+.encabezado-sobre-la-img{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 0;
+    margin: 0;
+    background: linear-gradient(rgba(5, 7, 12, 0.75), rgba(5, 7, 12, 0.75)), 
+    url("Img. generales/Fondo del encabezado.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 500px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    
+}
+
+
+
+.encabezado-sobre-la-img img{
+    border: #ffc400;
+  border-style: double;
+  border-width: thick;
+}
+
+.logodelencabezado{
+    padding: 15px;
+
+}
+
+.mochisobredelencabezado{
+    display: flex;
+
+    margin-right: 1300px;
+}
+
+/* Estilo de la barra de navegación*/
+
+header{
+    background-color: #f2f2f2;
+    padding: 25px 0;
+}
+
+nav a{
+    color: #696969;
+    text-decoration: none;
+    display: inline-block;
+    margin: 0 30px;
+    padding: 5px 15px;
+    border-radius: 30px;
+
+}
+
+nav a:hover{
+    background-color: #000;
+    color: #ffff;
+    
+}
+
+/* Hover del mapa del inicio*/
+.map:hover{
+    transform: scale(1.1);
+    transition: all 0.3s ease-in-out;
+}
+
+/* Contenedor de columnas */
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* Barra lateral */
+.side{
+    flex: 30%;
+    background-color: rgba(25, 21, 21, 0.776);
+    padding: 20px;
+}
+
+/* Columna principal */
+.main{
+    flex: 70%;
+    background-color: white;
+    padding: 20px;
+}
+
+/* Imagen*/
+.imagenmentira{
+    width: 100%;
+    padding: 20px;
+}
+
+/* Footer */
+.footer{
+    padding: 20px;
+    text-align: center;
+    background: #ffc400;    
+}
+
+/* Flex Responsible */
+
+.elhoverdeimgquemesalioportocarmano{
+    transform: scale(1.1);
+    transition: all 0.3s ease-in-out;
+}
+
+
+/* Indicadores de las Secciones */
+  .lasecciondelindicadorinicio{
+    display: block;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #000;
+    padding: 35px;
+    text-align: center;
+    border: 5px solid #ffc400;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    max-width: 300px;
+    width: 238px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+  }
+
+
+  /* Secciones de la página */
+.seccionnormal{
+    background: #f2f2f2;
+    margin: 20px;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 20px;
+    margin-bottom: 20px;
+  }
+
+
+  .nombradordelaseccionnormalenelmain{
+    background: #ffc400;
+    color: #000;
+    border-color: #0e0e0f;
+    border-radius: 20px;
+    justify-content: center;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    margin-left: 350px;	
+margin-right: 350px;
+    
+
+}
+
+.nombradordelaseccionnormalenelmainperoexclusivodeAmigurumis{
+    background: #ffc400;
+    color: #000;
+    border-color: #0e0e0f;
+    border-radius: 20px;
+    justify-content: center;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    margin-left: 410px;	
+margin-right: 410px;
+}
+
+
+* .wrapper{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body .wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 200vh;
+    min-width: 50vh;
+    background: #f2f2f2;
+}
+
+.wrapper{
+    margin: 150px auto;
+    width: 70%;
+}
+
+.wrapper img{
+    max-width: 520px;
+    float: right;
+}
+
+
+  .seccionnormalconmochi{
+    background: #f2f2f2;
+    margin: 20px;
+    padding: 5px;
+    box-sizing: border-box;
+    border-radius: 20px;
+    margin-bottom: 10px;
+  }
+  
+
+.seccionnormalenelmain{
+    background: #f2f2f2;
+    margin: 200px;
+    padding: 5px;
+    box-sizing: border-box;
+    border-radius: 20px;
+    margin-bottom: 10px;
+  }
+
+  /* Texto al lado de imgs*/
+.textoalladodeimgsdelmain{
+    display: flex;
+    justify-content: left;
+    align-items: right;
+}
+
+.textoimg{
+    margin-left: 10px;
+}
+
+.imgdelmain{
+    margin-right: 10px;
+}
+
+.imgdelmain img{
+    border-radius: 30px;
+}
+
+.imgdelmain:hover{
+    transform: scale(1.1);
+    transition: all 0.3s ease-in-out;
+}
+
+
+
+
+.imgdelmainspecial{
+    margin-right: 1px;
+}
+
+.imgdelmainspecial img{
+    border-radius: 30px;
+}
+
+.imgdelmainspecial:hover{
+    transform: scale(1.1);
+    transition: all 0.3s ease-in-out;
+}
+
+/* Detalles de imgs individuales*/
+.espectativavsrealidad{
+    display: flex;
+    justify-content: center;
+}
+
+.espectativa{
+    margin-right: 20px;
+}
+
+.espectativa img{
+    border-radius: 30px;
+}
+
+.espectativa img:hover{
+    transform: scale(1.1);
+    transition: all 0.3s ease-in-out;
+}
+
+.realidad{
+    margin-left: 20px;
+}
+
+.realidad img{
+    border-radius: 30px;
+}
+
+.realidad img:hover{
+    transform: scale(1.1);
+    transition: all 0.3s ease-in-out;
+}
+
+.allstars{
+    display: flex;
+    justify-content: center;
+}
+
+.stars img{
+    border-radius: 30px;
+}
+
+
+.stars img:hover{
+    transform: scale(1.1);
+    transition: all 0.3s ease-in-out;
+}
+.seccionnormal p{
+    margin: 20px;
+}
+
+.clickalaprimeraver{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 15px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    margin-left: 400px;
+    margin-right: 400px;
+    background: #0e0e0f;
+    border-radius: 30px;
+}
+
+  .nombradordelaseccionnormaldelinicio{
+    text-align: center;  
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    padding-left: 1px;
+    padding-right: 15px;
+    font-size: 15px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.nombradordelaseccionnormaldelinicio h3 {
+    background: #0e0e0f;
+    color: #ffff;
+    border-radius: 20px;
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    margin-left: 600px;
+    margin-right: 600px;
+}
+
+.nombradordelaseccionnormal{
+    text-align: center;  
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    padding-left: 1px;
+    padding-right: 15px;
+    font-size: 15px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.nombradordelaseccionnormal h2{
+    background: #ffc400;
+    color: #000;
+    border-color: #0e0e0f;
+    border-radius: 20px;
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    margin-left: 600px;
+    margin-right: 600px;
+}
+
+/* Mochis de la página de inicio 1*/
+
+.contenedordemochis1{
+    display: flex;
+    justify-content: center;
+}
+
+.mochiignorandoamocho1{
+margin-right: 25px;
+}
+
+.mochopidiendobola1{
+ width: 200px;
+}
+
+
+
+
+.seccionnormalantesdelfooter{
+    background: #f2f2f2;
+    margin: 20px;
+    padding: 3px;
+    padding-left: 15px;
+    box-sizing: border-box;
+    border-radius: 20px;
+    border-style: solid;
+    border-width: 4px;
+    border-color: #0e0e0f;
+    margin-bottom: 5px;
+    margin-right: 620px;
+}
+
+.seccionnormalantesdelfooterperoenelmain{
+    background: #f2f2f2;
+    margin: 10px;
+    padding: 3px;
+    padding-left: 15px;
+    box-sizing: border-box;
+    border-radius: 20px;
+    border-style: solid;
+    border-width: 4px;
+    border-color: #0e0e0f;
+    margin-bottom: 5px;
+    margin-right: 70px;
+    margin-left: 70px;
+    display: flex;
+    justify-content: center;
+}
+
+.intentodeflirtear1{
+    display: flex;
+    justify-content: center;
+}
+
+.intentodeflirtear2{
+    display: flex;
+    justify-content: center;
+}
+
+
+/*Cosas exclusivas del side en gustos*/
+* .side{
+    color: #ffff;
+}
+
+.lasecciondelindicadorloquemeencanta{
+    display: block;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #000;
+    padding: 35px;
+    text-align: center;
+    border: 5px solid #ffc400;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    max-width: 300px;
+    width: 300px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+.lasecciondelindicadoracercademí{
+    display: block;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #000;
+    padding: 35px;
+    text-align: center;
+    border: 5px solid #ffc400;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    max-width: 300px;
+    width: 230px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+.nombradordelaseccionnormalenelside{
+    background: #ffc400;
+    color: #000;
+    border-color: #0e0e0f;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    margin-left: 40px;	
+margin-right: 50px;
+    
+
+}
+
+
+
+.imgdelside{
+    margin-right: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.imgdelside img{
+    border-radius: 30px;
+}
+
+.imgdelside:hover{
+    transform: scale(1.1);
+    transition: all 0.3s ease-in-out;
+transition: all 0.3s ease-in-out;
+}
+
+.figcaptiondelside{
+    display: flex;
+    justify-content: center;
+}
+
+
+.nombradordelaseccionnormalenelsideperodelibros{
+    background: #ffc400;
+    color: #000;
+    border-color: #0e0e0f;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    margin-left: 70px;	
+margin-right: 70px;
+}
+
+.nombradordelaseccionnormalenelsideperocomida{
+    background: #ffc400;
+    color: #000;
+    border-color: #0e0e0f;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    margin-left: 70px;	
+margin-right: 70px;
+}
+
+.nombradordelaseccionnormalenelsideperoplanta{
+    background: #ffc400;
+    color: #000;
+    border-color: #0e0e0f;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    margin-left: 70px;	
+margin-right: 70px;
+}
+
+
+/* Cosas exclusivas del side en acerca de mí */
+
+.nombradordelaseccionnormalenelsideperodemisitioweb{
+    background: #ffc400;
+    color: #000;
+    border-color: #0e0e0f;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    margin-left:120px;	
+margin-right: 120px;
+}
+
+
+.nombradordelaseccionnormalenelsideperoreconstruccion{
+    background: #ffc400;
+    color: #000;
+    border-color: #0e0e0f;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    margin-left:100px;	
+margin-right: 100px;
+}
+
+
+
+
+
+
+
+/* Cosas exclusivas del main en acerca de mí */
+
+.nombradordelaseccionnormalenelmaindemihojadevida{
+    background: #ffc400;
+    color: #000;
+    border-color: #0e0e0f;
+    border-radius: 20px;
+    justify-content: center;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    margin-left: 400px;	
+margin-right: 400px;
+}
+
+
+
+
+
+/* Mi Footer Ideal */
+* footer{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: #ffff;
+}
+
+footer{
+    background: #0e0e0f;
+    padding-top: 50px;
+}
+
+.container{
+    width: 1140px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-content{
+    width: 33.3%;
+}
+
+footer h3{
+    font-size: 28px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.footer-content p{
+    width: 190px;
+    margin: auto;
+    padding: 7px;
+}
+
+.footer-content ul{
+    text-align: center;
+}
+
+.list{
+    padding: 0;
+}
+
+.list li{
+    width: auto;
+    text-align: center;
+    list-style-type: none;
+    padding: 7px;
+    position: relative;
+}
+
+.list li::before{
+    content: '';
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 100%;
+    width: 0;
+    height: 2px;
+    background: #ffc400;
+    transition-duration: .5s;
+}
+
+.list li:hover::before{
+    width: 70px;
+}
+
+.social-icons{
+    text-align: center;
+    padding: 0;
+}
+
+.social-icons li{
+    display: inline-block;
+    text-align: center;
+    padding: 5px;
+}
+
+.social-icons i{
+    color: #cfcfcf;
+    font-size: 25px;
+}
+a{
+    text-decoration: none;
+    color: #cfcfcf;
+}
+
+a:hover{
+    color: #ffd54b;
+}
+
+.social-icons i:hover{
+    color: #ffd54b;
+}
+
+.bottom-bar{
+    background: #ffc400;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 50px;
+}
+
+.bottom-bar p{
+    color: #0e0e0f;
+    margin: 0;
+    font-size: 16px;
+    padding: 7px;
+}
